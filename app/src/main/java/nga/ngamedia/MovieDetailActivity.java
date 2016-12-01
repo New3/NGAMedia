@@ -99,7 +99,7 @@ public class MovieDetailActivity extends AppCompatActivity {
         if(mMovie.getRelease_date() != null) {
             releaseDate.setText("" + mMovie.getRelease_date());
         } else {
-            releaseDate.setText("First Airing Date: " + mMovie.getFirst_air_date());
+            releaseDate.setText("" + mMovie.getFirst_air_date());
         }
 
         // Change fonts of TextView/s
